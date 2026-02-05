@@ -1,9 +1,11 @@
+
+
 // Logo path shortcuts for easier configuration
 export const LOGO_PATHS = {
-  BENTO_BOX: "/logos/bentoboxgaming-logo.png",
-  IRON_GRID: "/logos/irongrid-logo.png",
-  POWERSURGE: "/logos/powersurge-logo.png",
-  LIMIT_BREAK: "/logos/limitbreak-logo.png",
+  BENTO_BOX: `logos/bentoboxgaming-logo.png`,
+  IRON_GRID: `logos/irongrid-logo.png`,
+  POWERSURGE: `logos/powersurge-logo.png`,
+  LIMIT_BREAK: `logos/limitbreak-logo.png`,
   DEFAULT: null
 };
 
