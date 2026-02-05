@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color scheme - Orange and white theme */
+:root {
+  --orange-primary: #f97316;
+  --orange-secondary: #ea580c;
+  --orange-accent: #fb923c;
+  --orange-light: #fed7aa;
+  --orange-dark: #c2410c;
+}
+
+/* Light mode - Orange and white theme */
+html {
+  background-color: white;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode - Orange and neutral grays */
+html.dark {
+  background-color: #151928;
+}
+
+body.dark {
+  background-color: #151928;
+  color: white;
+}
+
+/* Override Tailwind's default blue backgrounds */
+main {
+  background-color: white !important;
+}
+
+.dark main {
+  background-color: #151928 !important;
+}
