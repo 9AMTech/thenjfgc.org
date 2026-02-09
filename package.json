@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "pages": "git subtree push --prefix build origin gh-pages",
+    "build": "vite build && cp ./.nojekyll build/.nojekyll",
+    "pages": "gh-pages -d build -t",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''"
   },
@@ -16,6 +16,7 @@
     "@sveltejs/kit": "^2.50.2",
     "@sveltejs/vite-plugin-svelte": "^6.2.4",
     "autoprefixer": "^10.4.24",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "svelte": "^5.49.2",
     "tailwindcss": "^3.4.19",

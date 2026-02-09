@@ -6,6 +6,7 @@ export const LOGO_PATHS = {
   IRON_GRID: `logos/irongrid-logo.png`,
   POWERSURGE: `logos/powersurge-logo.png`,
   LIMIT_BREAK: `logos/limitbreak-logo.png`,
+  FIGHTERS_RECESS: `logos/fightersrecess-logo.png`,
   DEFAULT: null
 };
 
@@ -18,6 +19,14 @@ export const events = {
       logo: LOGO_PATHS.IRON_GRID,
       socialMediaText: "X/Twitter",
       socialMediaLink: "https://x.com/IronGridfgc",
+    },
+    {
+      name: "Fighters Recess",
+      descriptor: "Street Fighter 6 X Fatal Fury Tournament/Event held on the Last Sunday of Each Month!",
+      location: "Parsippany",
+      logo: LOGO_PATHS.FIGHTERS_RECESS,
+      socialMediaText: "X/Twitter",
+      socialMediaLink: "https://x.com/LoneWolfMoon_",
     },
   ],
   "Central Jersey": [

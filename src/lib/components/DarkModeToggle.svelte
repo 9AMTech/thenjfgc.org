@@ -21,27 +21,27 @@
 			document.documentElement.classList.remove("dark");
 		}
 
-		console.log("Dark mode component mounted, darkMode:", darkMode);
+		// console.log("Dark mode component mounted, darkMode:", darkMode);
 	});
 
 	function toggleDarkMode() {
 		darkMode = !darkMode;
-		console.log("Toggling dark mode to:", darkMode);
+		// console.log("Toggling dark mode to:", darkMode);
 
 		if (darkMode) {
 			document.documentElement.classList.add("dark");
 			localStorage.setItem("theme", "dark");
-			console.log(
-				"Added dark class, classes:",
-				document.documentElement.classList.toString(),
-			);
+			// console.log(
+			// 	"Added dark class, classes:",
+			// 	document.documentElement.classList.toString(),
+			// );
 		} else {
 			document.documentElement.classList.remove("dark");
 			localStorage.setItem("theme", "light");
-			console.log(
-				"Removed dark class, classes:",
-				document.documentElement.classList.toString(),
-			);
+			// console.log(
+			// 	"Removed dark class, classes:",
+			// 	document.documentElement.classList.toString(),
+			// );
 		}
 	}
 </script>
