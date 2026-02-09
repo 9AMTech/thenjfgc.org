@@ -28,7 +28,7 @@
 						{#if event.logo && event.logo !== null && event.logo !== ""}
 							<img
 								src={event.logo}
-								alt={event.name}
+								alt="Logo for {event.name}."
 								class="w-full h-full object-cover"
 							/>
 						{:else}
