@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "build": "vite build && cp ./.nojekyll build/.nojekyll",
     "pages": "gh-pages -d build -t",
+    "fulldeploy": "pnpm run build && pnpm run pages",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''"
   },
